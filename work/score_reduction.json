@@ -1,0 +1,646 @@
+{
+ "title": "Ave Maria",
+ "composer": "Charles Gounod (1818-1893)\nJ.S Bach (1685-1750)\nPrelude in C reduced to a harmonic accompaniment",
+ "lyricist": "Instructor:\nHerng-Yow Chen (陳恒佑)",
+ "copyright": "© Interactive Music Programming and Creation, National Chi Nan University, Taiwan, 2020\n(https://www.openedu.tw/course.jsp?id=990)",
+ "time_signature": {
+  "beats": 4,
+  "beat_type": 4,
+  "common_time": true
+ },
+ "key_fifths": 0,
+ "tempo": {
+  "unit": "quarter",
+  "bpm": 48
+ },
+ "spatium": 1.5,
+ "dynamics": {
+  "melody": "mp",
+  "piano_rh": "p",
+  "piano_lh": "p"
+ },
+ "staff_keys": [
+  "melody",
+  "piano_rh",
+  "piano_lh"
+ ],
+ "parts": [
+  {
+   "name": "Violin",
+   "short": "Vln.",
+   "instrument": "violin",
+   "program": 40,
+   "range": [
+    55,
+    103
+   ],
+   "staves": [
+    "G"
+   ]
+  },
+  {
+   "name": "Piano",
+   "short": "Pno.",
+   "instrument": "piano",
+   "program": 0,
+   "range": [
+    21,
+    108
+   ],
+   "staves": [
+    "G",
+    "F"
+   ]
+  }
+ ],
+ "line_breaks_after_measures": [
+  6,
+  12,
+  24,
+  30
+ ],
+ "page_breaks_after_measures": [
+  18
+ ],
+ "measures": [
+  {
+   "chord": {
+    "root": "C",
+    "name": "",
+    "bass": null
+   },
+   "melody": [
+    "E5:1"
+   ],
+   "piano_rh": [
+    "E4+G4+C5+E5:2 E4+G4+C5+E5:2"
+   ],
+   "piano_lh": [
+    "C4:2 C4:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "D",
+    "name": "m7",
+    "bass": "C"
+   },
+   "melody": [
+    "F5:2. F5:4"
+   ],
+   "piano_rh": [
+    "D4+A4+D5+F5:2 D4+A4+D5+F5:2"
+   ],
+   "piano_lh": [
+    "C4:2 C4:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "G",
+    "name": "7",
+    "bass": "B"
+   },
+   "melody": [
+    "G5:2. D5:4"
+   ],
+   "piano_rh": [
+    "D4+G4+D5+F5:2 D4+G4+D5+F5:2"
+   ],
+   "piano_lh": [
+    "B3:2 B3:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "C",
+    "name": "",
+    "bass": null
+   },
+   "melody": [
+    "E5:1"
+   ],
+   "piano_rh": [
+    "E4+G4+C5+E5:2 E4+G4+C5+E5:2"
+   ],
+   "piano_lh": [
+    "C4:2 C4:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "A",
+    "name": "m",
+    "bass": "C"
+   },
+   "melody": [
+    "A5:2~ A5:8 A4:8 B4:8 C5:8"
+   ],
+   "piano_rh": [
+    "E4+A4+E5+A5:2 E4+A4+E5+A5:2"
+   ],
+   "piano_lh": [
+    "C4:2 C4:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "D",
+    "name": "7",
+    "bass": "C"
+   },
+   "melody": [
+    "D5:4. E5:8 D5:2"
+   ],
+   "piano_rh": [
+    "D4+F#4+A4+D5:2 D4+F#4+A4+D5:2"
+   ],
+   "piano_lh": [
+    "C4:2 C4:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "G",
+    "name": "",
+    "bass": "B"
+   },
+   "melody": [
+    "G5:2~ G5:8 G4:8 A4:8 B4:8"
+   ],
+   "piano_rh": [
+    "D4+G4+D5+G5:2 D4+G4+D5+G5:2"
+   ],
+   "piano_lh": [
+    "B3:2 B3:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "C",
+    "name": "maj7",
+    "bass": "B"
+   },
+   "melody": [
+    "C5:4. D5:8 C5:2"
+   ],
+   "piano_rh": [
+    "C4+E4+G4+C5:2 C4+E4+G4+C5:2"
+   ],
+   "piano_lh": [
+    "B3:2 B3:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "A",
+    "name": "m7",
+    "bass": null
+   },
+   "melody": [
+    "C6:2~ C6:8 C5:8 D5:8 E5:8"
+   ],
+   "piano_rh": [
+    "C4+E4+G4+C5:2 C4+E4+G4+C5:2"
+   ],
+   "piano_lh": [
+    "A3:2 A3:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "D",
+    "name": "7",
+    "bass": null
+   },
+   "melody": [
+    "F#5:4. E5:8 D5:4 A4:4"
+   ],
+   "piano_rh": [
+    "D4+F#4+A4+C5:2 D4+F#4+A4+C5:2"
+   ],
+   "piano_lh": [
+    "D3:2 D3:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "G",
+    "name": "",
+    "bass": "B"
+   },
+   "melody": [
+    "B4:2. D5:4"
+   ],
+   "piano_rh": [
+    "D4+G4+B4:2 D4+G4+B4:2"
+   ],
+   "piano_lh": [
+    "G3:2 G3:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "G",
+    "name": "dim7",
+    "bass": null
+   },
+   "melody": [
+    "E5:2~ E5:8 E5:8 F5:8 G5:8"
+   ],
+   "piano_rh": [
+    "E4+G4+Bb4+C#5:2 E4+G4+Bb4+C#5:2"
+   ],
+   "piano_lh": [
+    "G3:2 G3:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "D",
+    "name": "m",
+    "bass": "F"
+   },
+   "melody": [
+    "A5:4. A4:8 A4:2"
+   ],
+   "piano_rh": [
+    "D4+A4+D5:2 D4+A4+D5:2"
+   ],
+   "piano_lh": [
+    "F3:2 F3:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "F",
+    "name": "dim7",
+    "bass": null
+   },
+   "melody": [
+    "D5:2~ D5:8 D5:8 E5:8 F5:8"
+   ],
+   "piano_rh": [
+    "D4+F4+Ab4+B4:2 D4+F4+Ab4+B4:2"
+   ],
+   "piano_lh": [
+    "F3:2 F3:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "C",
+    "name": "",
+    "bass": "E"
+   },
+   "melody": [
+    "G5:2 G4:2"
+   ],
+   "piano_rh": [
+    "C4+G4+C5:2 C4+G4+C5:2"
+   ],
+   "piano_lh": [
+    "E3:2 E3:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "F",
+    "name": "maj7",
+    "bass": "E"
+   },
+   "melody": [
+    "C5:2~ C5:8 C5:8 D5:8 E5:8"
+   ],
+   "piano_rh": [
+    "C4+F4+A4:2 C4+F4+A4:2"
+   ],
+   "piano_lh": [
+    "E3:2 E3:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "D",
+    "name": "m7",
+    "bass": null
+   },
+   "melody": [
+    "F5:2~ F5:8 F5:8 G5:8 A5:8"
+   ],
+   "piano_rh": [
+    "C4+F4+A4:2 C4+F4+A4:2"
+   ],
+   "piano_lh": [
+    "D3:2 D3:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "G",
+    "name": "7",
+    "bass": null
+   },
+   "melody": [
+    "B5:4. A5:8 G5:4 D5:4"
+   ],
+   "piano_rh": [
+    "D4+F4+G4+B4:2 D4+F4+G4+B4:2"
+   ],
+   "piano_lh": [
+    "G2:2 G2:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "C",
+    "name": "",
+    "bass": null
+   },
+   "melody": [
+    "E5:2~ E5:8 r:8 r:8 E5:8"
+   ],
+   "piano_rh": [
+    "C4+E4+G4:2 C4+E4+G4:2"
+   ],
+   "piano_lh": [
+    "C3:2 C3:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "C",
+    "name": "7",
+    "bass": null
+   },
+   "melody": [
+    "G5:2 E5:4. E5:8"
+   ],
+   "piano_rh": [
+    "C4+E4+G4+Bb4:2 C4+E4+G4+Bb4:2"
+   ],
+   "piano_lh": [
+    "C3:2 C3:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "F",
+    "name": "maj7",
+    "bass": null
+   },
+   "melody": [
+    "A5:2 A4:4 r:8 A5:8"
+   ],
+   "piano_rh": [
+    "C4+E4+F4+A4:2 C4+E4+F4+A4:2"
+   ],
+   "piano_lh": [
+    "F2:2 F2:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "F#",
+    "name": "dim7",
+    "bass": null
+   },
+   "melody": [
+    "A5:2 C5:4 r:8 A5:8"
+   ],
+   "piano_rh": [
+    "C4+Eb4+A4:2 C4+Eb4+A4:2"
+   ],
+   "piano_lh": [
+    "F#2:2 F#2:2"
+   ]
+  },
+  {
+   "chord": null,
+   "melody": [
+    "C6:2 Eb5:4 r:8 C6:8"
+   ],
+   "piano_rh": [
+    "C4+Eb4+B4:2 C4+Eb4+B4:2"
+   ],
+   "piano_lh": [
+    "G2:2 B2:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "Ab",
+    "name": "dim7",
+    "bass": null
+   },
+   "melody": [
+    "C6:2 D5:4 r:8 D5:8"
+   ],
+   "piano_rh": [
+    "C4+D4+F4+B4:2 C4+D4+F4+B4:2"
+   ],
+   "piano_lh": [
+    "Ab2:2 Ab2:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "G",
+    "name": "7",
+    "bass": null
+   },
+   "melody": [
+    "D5:2~ D5:8 D5:8 C5:8 B4:8"
+   ],
+   "piano_rh": [
+    "D4+F4+G4+B4:2 D4+F4+G4+B4:2"
+   ],
+   "piano_lh": [
+    "G2:2 G2:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "C",
+    "name": "",
+    "bass": "G"
+   },
+   "melody": [
+    "G5:4. E5:8 C5:2"
+   ],
+   "piano_rh": [
+    "C4+E4+G4:2 C4+E4+G4:2"
+   ],
+   "piano_lh": [
+    "G2:2 G2:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "G",
+    "name": "7sus4",
+    "bass": null
+   },
+   "melody": [
+    "F5:2~ F5:8 F5:8 E5:8 D5:8"
+   ],
+   "piano_rh": [
+    "C4+D4+F4+G4:2 C4+D4+F4+G4:2"
+   ],
+   "piano_lh": [
+    "G2:2 G2:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "G",
+    "name": "7",
+    "bass": null
+   },
+   "melody": [
+    "D6:4. B5:8 G5:2"
+   ],
+   "piano_rh": [
+    "D4+F4+G4+B4:2 D4+F4+G4+B4:2"
+   ],
+   "piano_lh": [
+    "G2:2 G2:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "A",
+    "name": "dim7",
+    "bass": "G"
+   },
+   "melody": [
+    "A5:2~ A5:8 A5:8 B5:8 C6:8"
+   ],
+   "piano_rh": [
+    "C4+Eb4+F#4+A4:2 C4+Eb4+F#4+A4:2"
+   ],
+   "piano_lh": [
+    "G2:2 G2:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "C",
+    "name": "",
+    "bass": "G"
+   },
+   "melody": [
+    "E6:2~ E6:8 C6:8 G5:8 E5:8"
+   ],
+   "piano_rh": [
+    "C4+E4+G4:2 C4+E4+G4:2"
+   ],
+   "piano_lh": [
+    "G2:2 G2:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "G",
+    "name": "7sus4",
+    "bass": null
+   },
+   "melody": [
+    "D5:2~ D5:8 A5:8 B5:8 A5:8"
+   ],
+   "piano_rh": [
+    "C4+D4+F4+G4:2 C4+D4+F4+G4:2"
+   ],
+   "piano_lh": [
+    "G2:2 G2:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "G",
+    "name": "7",
+    "bass": null
+   },
+   "melody": [
+    "G5:8 D6:8 B5:8 G5:8 F5:8 D5:8 B4:8 G4:8"
+   ],
+   "piano_rh": [
+    "D4+F4+G4+B4:2 D4+F4+G4+B4:2"
+   ],
+   "piano_lh": [
+    "G2:2 G2:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "C",
+    "name": "7",
+    "bass": null
+   },
+   "melody": [
+    "C5:1"
+   ],
+   "piano_rh": [
+    "C4+E4+G4+Bb4:2 C4+E4+G4+Bb4:2"
+   ],
+   "piano_lh": [
+    "C2:2 C2:2"
+   ]
+  },
+  {
+   "chord": {
+    "root": "F",
+    "name": "",
+    "bass": "C"
+   },
+   "melody": [
+    "C5:1"
+   ],
+   "piano_rh": [
+    "C4+F4+A4:2 D4+F4+A4:2"
+   ],
+   "piano_lh": [
+    "C2:1"
+   ],
+   "chord2": {
+    "at": "1/2",
+    "root": "D",
+    "name": "m",
+    "bass": null
+   }
+  },
+  {
+   "chord": {
+    "root": "G",
+    "name": "7",
+    "bass": "C"
+   },
+   "melody": [
+    "G5:1"
+   ],
+   "piano_rh": [
+    "G4+B4+D5+F5:2 G4+B4+D5+F5:2"
+   ],
+   "piano_lh": [
+    "C2:1"
+   ]
+  },
+  {
+   "chord": {
+    "root": "C",
+    "name": "",
+    "bass": null
+   },
+   "melody": [
+    "G5:1"
+   ],
+   "piano_rh": [
+    "E4+G4+C5:1^"
+   ],
+   "piano_lh": [
+    "C3:1^",
+    "C2:1"
+   ]
+  }
+ ]
+}

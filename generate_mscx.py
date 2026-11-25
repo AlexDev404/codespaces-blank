@@ -12,9 +12,9 @@ from fractions import Fraction
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-DATA = ROOT / "work" / "score.json"
-SUFFIX = "__avepreludec"
-OUT = ROOT / "output" / f"score{SUFFIX}.mscx"
+# usage: generate_mscx.py [data.json [out.mscx]]
+DATA = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else ROOT / "work" / "score.json"
+OUT = Path(sys.argv[2]).resolve() if len(sys.argv) > 2 else ROOT / "output" / "score__avepreludec.mscx"
 
 DIV = 480  # ticks per quarter
 DUR_NAME = {1: "whole", 2: "half", 4: "quarter", 8: "eighth", 16: "16th"}
@@ -140,7 +140,7 @@ def main():
     for k in ("pageEvenLeftMargin", "pageOddLeftMargin", "pageEvenTopMargin", "pageOddTopMargin",
               "pageEvenBottomMargin", "pageOddBottomMargin"):
         sub(style, k, "0.5")
-    sub(style, "Spatium", "1.2")
+    sub(style, "Spatium", str(data.get("spatium", 1.2)))
     sub(style, "measureSpacing", "1.0")
     sub(style, "minNoteDistance", "0.4")
     sub(score, "showInvisible", 1)
@@ -174,7 +174,7 @@ def main():
         sub(inst, "longName", part["name"])
         sub(inst, "shortName", part["short"])
         sub(inst, "trackName", part["name"])
-        lo, hi = (23, 104) if part["instrument"] == "harp" else (36, 94)
+        lo, hi = part.get("range") or ((23, 104) if part["instrument"] == "harp" else (36, 94))
         sub(inst, "minPitchP", lo); sub(inst, "maxPitchP", hi)
         sub(inst, "minPitchA", lo); sub(inst, "maxPitchA", hi)
         if n > 1:
@@ -187,7 +187,7 @@ def main():
     page_breaks = set(data.get("page_breaks_after_measures", []))
     tempo = data["tempo"]
     sym = {"quarter": "metNoteQuarterUp", "half": "metNoteHalfUp", "eighth": "metNote8thUp"}[tempo["unit"]]
-    keys = ["voice", "harp_rh", "harp_lh"]
+    keys = data.get("staff_keys", ["voice", "harp_rh", "harp_lh"])
 
     for si, key in enumerate(keys):
         st = sub(score, "Staff"); st.set("id", str(si + 1))
@@ -232,6 +232,8 @@ def main():
                     s.tail = f" = {tempo['bpm']}"
                 if _si == 0 and _m.get("chord"):
                     write_harmony(voice, _m["chord"])
+                if _mi == 1 and data.get("dynamics", {}).get(key):
+                    dy = sub(voice, "Dynamic"); sub(dy, "subtype", data["dynamics"][key])
                 if _si == 1 and _m.get("harp_rh_text"):
                     stx = sub(voice, "StaffText"); sub(stx, "text", _m["harp_rh_text"])
 
